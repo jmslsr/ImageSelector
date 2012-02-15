@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GalleryTestActivity!</string>
+    <string name="app_name">GalleryTest</string>
+    <string name="cameraButton">New photo</string>
+    <string name="browseButton">Browse photos</string>
+
+</resources>

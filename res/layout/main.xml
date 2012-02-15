@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <ImageView
+       android:id="@+id/thePicture"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="0.24" />
+
+    <Button
+        android:id="@+id/gotoCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getCamera"
+        android:text="@string/cameraButton" />
+
+    <Button
+        android:id="@+id/browseImages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="browseImages"
+        android:text="@string/browseButton" />
+
+</LinearLayout>
